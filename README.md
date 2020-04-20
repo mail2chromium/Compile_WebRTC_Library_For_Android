@@ -24,6 +24,12 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 - [Major Steps](#major-Steps)
 
 - [Explanation of Steps](#Explanation-of-Steps)
+ 
+ - [Getting the Code](#getting-the-Code)
+
+ - [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
+
+ - [Compilation and Building](#compilation-and-Building)
 
 - [Usage of Library](#usage-of-Library)
 
@@ -115,7 +121,9 @@ Now, if you look in the `webrtc_android/src/` directory, It turns out that you w
 The above mentioned `11-Steps` involve these three procedures to deal with:
 
 #####- [Getting the Code](#getting-the-Code)
+
 #####- [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
+
 #####- [Compilation and Building](#compilation-and-Building)
 
 
