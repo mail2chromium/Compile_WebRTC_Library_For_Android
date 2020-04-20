@@ -17,6 +17,8 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 # Content of this Document:
 
+------
+
 - [Prebuilt Libraries](#prebuilt-Libraries)
 
 - [Prerequisite Software](#prerequisite-Software)
@@ -49,6 +51,8 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 ## Prebuilt Libraries:
 
+------
+
 The easiest way to get started is using the [official prebuilt libraries](https://bintray.com/google/webrtc/google-webrtc) available at JCenter. These libraries are compiled from the tip-of-tree and are meant for development purposes only.
 
 On Android Studio 3+ add to your dependencies:
@@ -60,6 +64,8 @@ implementation 'org.webrtc:google-webrtc:1.0.+'
 -----
 
 ## Prerequisite Software:
+
+------
 
 #### Android development is only supported on Linux.
 
@@ -84,6 +90,8 @@ Before to start with WebRTC Native Stack, first install these modules, using the
 ----------
 
 ## Major Steps:
+
+------
 
 These are the only `11-Steps` which are basically the cream of WebRTC:
 
@@ -126,6 +134,8 @@ Now, if you look in the `webrtc_android/src/` directory, It turns out that you w
 
 ## Explanation of Steps:
 
+------
+
 The above mentioned `11-Steps` involve these three procedures to deal with:
 
 ##### - [Getting the Code](#getting-the-Code)
@@ -134,8 +144,11 @@ The above mentioned `11-Steps` involve these three procedures to deal with:
 
 ##### - [Compilation and Building](#compilation-and-Building)
 
+------
 
-## Getting the Code:
+### Getting the Code:
+
+------
 
 This procedure involves Steps from `Step-1` to `Step-5`, to get the native code of WebRTC from Google Git, there is always a need
 
@@ -188,7 +201,9 @@ After these steps, you will end up with Updated and Synced WebRTC Native Code.
 
 -------------
 
-## Dependencies and Branch Selection:
+### Dependencies and Branch Selection:
+
+------
 
 To install dependencies for linux, A script is provided for Ubuntu, which is unfortunately only available after your first `gclient sync`:
 
@@ -240,7 +255,9 @@ This will help you to resolve most of [compilation issues](#compilation-Issues).
 -------------
 
 
-## Compilation and Building:
+### Compilation and Building:
+
+------
 
 There are two ways to compile the WebRTC Native Stack for Android to build the library i.e. `libwebrtc.aar`. You can use these following methods such as:
 
@@ -250,7 +267,9 @@ There are two ways to compile the WebRTC Native Stack for Android to build the l
 
 ------
 
-## Using AAR Build Tools:
+### Using AAR Build Tools:
+
+------
 
 This is the most beautiful process. It would compile the source code for all supported CPU types such as
 
@@ -279,7 +298,9 @@ Now, if you look in the `webrtc_android/src/` directory, It turns out that you w
 
 --------
 
-## Using Manual Compilation:
+### Using Manual Compilation:
+
+------
 
 This process will manually compile the source code for each particular CPU type. Manual Compiling involves these two steps:
 
@@ -327,6 +348,8 @@ webrtc_android/src/third_party/android_ndk/toolchains/arm-linux-androideabi-4.9/
 
 
 ## Usage of Library:
+
+------
 
 You can use this (.aar) library into your project using:
 
