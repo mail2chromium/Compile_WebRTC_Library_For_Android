@@ -73,13 +73,13 @@ implementation 'org.webrtc:google-webrtc:1.0.+'
 
 So, I will must suggest to use any of *Linux-Environment* etc (`Ubuntu`) for Android Development. When you have setup your Linux-Environment, then make sure of these important things before hand:
 
-- Hard-Disk Space around `30-50GB` ()
-- RAM `4-8GB`
+- Hard-Disk Space around `30-50GB` (Minimum `20GB`)
+- RAM `4-8GB` (Enough)
 - Internet With Good `MBs`
 
 Now open your terminal.
 
-Strictly Recommended: Don't Open Multiple Terminal Tabs/Windows to install any of dependencies related to WebRTC Pre-requisites, Do Every of Your Task Related in One and Only One Terminal Tab/Window.
+##### Strictly Recommended: Don't Open Multiple Terminal Tabs/Windows to install any of dependencies related to WebRTC Pre-requisites, Do Every of Your Task Related to WebRTC in One and Only One Terminal's Tab/Window.
 
 Before to start with WebRTC Native Stack, first install these modules, using the following Commands:
 
@@ -95,12 +95,14 @@ Before to start with WebRTC Native Stack, first install these modules, using the
 
 ------
 
-These are the only `11-Steps` which are basically the cream of WebRTC:
+These are the only `11-Steps` which are basically the cream of WebRTC Native Development:
 
 - To Get the Code
 - To Compile and Build Library
 
-I have explained about each step below in this document. To get basic understanding of these given steps first see [Explanation of Steps](#explanation-of-Steps) and then start with these following steps one by one. Every step takes its own time based on the *machine specs* and *internet speed*, so make sure every step is completed without interruption.
+I have explained about each step below in this document. To get basic understanding of these given steps see [Explanation of Steps](#explanation-of-Steps) and then start with these following steps one by one. 
+
+##### Note: Every step takes its own time based on the *machine specs* and *internet speed*, so make sure every step is completed without interruption.
 
 ```
     1- git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
@@ -159,30 +161,30 @@ This procedure involves Steps from `Step-1` to `Step-5`, to get the native code 
 Chromium and Chromium OS use a package of scripts called `depot_tools` to manage checkouts and code reviews.
 The `depot_tools` package includes custom git binary, ninja build tools, gclient, gn, ninja, gcl, git-cl, repo, and others.
 
-It is very easy to get these tools just take your first step of cloning the repository by using this command:
+It is very easy to get these tools. Just take your first step by cloning the repository with this command:
 
 ```
     1- git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 ```
 
-Now, its time to add into *PATH Environment* variables, so the binaries/dependencies included in the repository would be available in the current terminal by using this command:
+Now, its time to add path into *PATH Environment Variables*, so that the binaries/dependencies must be included in the repository. In this way, these binaries would be available in the current terminal:
 
 ```
     2- export PATH="$PATH:${HOME}/depot_tools"
 ```
-If you close the current instance of Linux-terminal, then before starting any step (except step-1), you have to repeat this step.
-To get more detailed intuition you can visit [Get Chromium Depot Tools](https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up)
+
+If you close the current instance of Linux-terminal, then before starting any step (except step-1), you have to repeat this step to get working binaries in that instance. To get more detailed intuition, you can visit [Get Chromium Depot Tools](https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up)
 
 After this make a new directory and go into that directory using these commands:
 
 ```
-    3- mkdir webrtc_android
+    3-   mkdir webrtc_android
     3.1- cd webrtc_android
 ```
 
-This is the directory, where all of your WebRTC Native Stack will be cloned and synced. Now, Here comes the two giant steps of this getting code procedure which are:
+This is the directory, where all of your WebRTC Native Stack will be cloned and synced. Now, here comes the two *giant* steps of this getting code procedure which are:
 
-- Here, Fetch command is used to get the a regular WebRTC Native Source Code with the Android-specific parts added.
+- Fetch command is used to get the a regular WebRTC Native Source Code with the Android-specific parts added.
 - Gclient Sync command is used to update your checkout for underlying source code i.e WebRTC Native Code.
 
 Make sure your current directory is `webrtc_android/`:
@@ -193,9 +195,9 @@ Make sure your current directory is `webrtc_android/`:
 
 ```
 
-`gclient sync` command will pull all dependencies of the Chromium src checkout. You will need to run this any time you update the main src checkout, including when you switch branches.
+The `gclient sync` command will pull all dependencies of the Chromium src checkout. You will need to run this any time you update the main src checkout, including when you switch branches.
 
-Try to avoid any kind of interruption as these processes may take enough time based on Machine Specs and Internet Speed because these processes require the android build chain tools for which
+Try to avoid any kind of interruption as these processes may take enough time based on Machine Specs and Internet Speed because these processes require the android build chain tools for which;
 
 #### Notice: It is to be Noted that the Android specific parts like the *Android SDK and NDK* are quite large **(~8 GB)**, so the total checkout size will be about **16 GB**.
 
@@ -207,7 +209,7 @@ After these steps, you will end up with Updated and Synced WebRTC Native Code.
 
 ------
 
-To install dependencies for linux, A script is provided for Ubuntu, which is unfortunately only available after your first `gclient sync`:
+To install all required dependencies for linux, a script is provided for `Ubuntu`, which is unfortunately only available after your first `gclient sync`:
 
 Make sure your current directory is `webrtc_android/src/`
 ```
