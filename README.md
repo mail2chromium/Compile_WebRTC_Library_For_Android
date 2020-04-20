@@ -69,7 +69,7 @@ implementation 'org.webrtc:google-webrtc:1.0.+'
 
 ------
 
-#### Android development is only supported on Linux.
+#### Note: Android development is only supported on Linux.
 
 So, I will must suggest to use any of *Linux-Environment* etc (`Ubuntu`) for Android Development. When you have setup your Linux-Environment, then make sure of these important things before hand:
 
