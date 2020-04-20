@@ -49,7 +49,7 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 - [Conclusion](#conclusion)
 
-------
+---------
 
 ## Prebuilt Libraries:
 
@@ -63,7 +63,7 @@ On Android Studio 3+ add to your dependencies:
 implementation 'org.webrtc:google-webrtc:1.0.+'
 ```
 
------
+-----------
 
 ## Prerequisite Software:
 
@@ -258,7 +258,6 @@ This will help you to resolve most of [compilation issues](#compilation-Issues).
 
 -------------
 
-
 ### Compilation and Building:
 
 ------
@@ -350,7 +349,6 @@ webrtc_android/src/third_party/android_ndk/toolchains/arm-linux-androideabi-4.9/
 
 --------
 
-
 ## Usage of Library:
 
 ------
@@ -409,6 +407,8 @@ Then you can add repository in the root gradle file followed by adding into your
 
 
 ## Compilation Issues:
+
+------
 
 Some of you guys may try different branch-heads of WebRTC for there development. But I must suggest to use the `origin/master`. Because, it turns out that while using different branch heads, you may end up with multiple issues regarding `BUILD.gn` or inside this class `tools_webrtc/android/build_aar.py`, which may be an unhealthy experience.
 
