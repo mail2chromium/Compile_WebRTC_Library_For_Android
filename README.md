@@ -30,8 +30,16 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
   - [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
 
   - [Compilation and Building](#compilation-and-Building)
+  
+      - [Using AAR Build Tools](#using-AAR-Build-Tools)
 
+      - [Using Manual Compilation](#using-Manual-Compilation)
+      
 - [Usage of Library](#usage-of-Library)
+
+  - [Manually Include Packages](#manually-Include-Packages)(*.aar)
+
+  - [Publish to Maven Repository](#publish-to-Maven-Repository)
 
 - [Compilation Issues](#compilation-Issues)
 
@@ -229,8 +237,9 @@ This will help you to resolve most of [compilation issues](#compilation-Issues).
 
 There are two ways to compile the WebRTC Native Stack for Android to build the library i.e. `libwebrtc.aar`. You can use these following methods such as:
 
-#####1- [Using AAR Build Tools](#using-AAR-Build-Tools)
-#####2- [Using Manual Compilation](#using-Manual-Compilation)
+##### 1- [Using AAR Build Tools](#using-AAR-Build-Tools)
+
+##### 2- [Using Manual Compilation](#using-Manual-Compilation)
 
 ------
 
@@ -305,8 +314,9 @@ webrtc_android/src/third_party/android_ndk/toolchains/arm-linux-androideabi-4.9/
 
 You can use this (.aar) library into your project using:
 
-- Manually Include Packages(*.aar)
-- Publish to Maven Repository
+##### - [Manually Include Packages](#manually-Include-Packages)(*.aar)
+
+##### - [Publish to Maven Repository](#publish-to-Maven-Repository)
 
 
 #### Manually Include Packages:
