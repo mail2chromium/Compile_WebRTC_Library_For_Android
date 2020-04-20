@@ -128,11 +128,11 @@ Now, if you look in the `webrtc_android/src/` directory, It turns out that you w
 
 The above mentioned `11-Steps` involve these three procedures to deal with:
 
-#####- [Getting the Code](#getting-the-Code)
+##### - [Getting the Code](#getting-the-Code)
 
-#####- [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
+##### - [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
 
-#####- [Compilation and Building](#compilation-and-Building)
+##### - [Compilation and Building](#compilation-and-Building)
 
 
 ## Getting the Code:
@@ -177,6 +177,9 @@ Make sure your current directory is `webrtc_android/`:
     5- gclient sync
 
 ```
+
+`gclient sync` command will pull all dependencies of the Chromium src checkout. You will need to run this any time you update the main src checkout, including when you switch branches.
+
 Try to avoid any kind of interruption as these processes may take enough time based on Machine Specs and Internet Speed because these processes require the android build chain tools for which
 
 #### Notice: It is to be Noted that the Android specific parts like the *Android SDK and NDK* are quite large **(~8 GB)**, so the total checkout size will be about **16 GB**.
@@ -270,8 +273,9 @@ Now, if you look in the `webrtc_android/src/` directory, It turns out that you w
 
 This process will manually compile the source code for each particular CPU type. Manual Compiling involves these two steps:
 
-1- Generate projects using GN.
-2- Compile using Ninja
+##### 1- Generate projects using GN.
+
+##### 2- Compile using Ninja
 
 This step will compile library for both Debug and Release Mode of Development.
 
@@ -296,7 +300,9 @@ For compilation you can simply use these following commands for (`out/Debug`, `o
 ```
 
 The output of the above process will be in the `out/Debug` or `out/Release`. Manually compilation of the source code is quite difficult and challenging. As with, manual compilation you also need to package all these libraries into `.aar` manually which is more time consuming.
+
 The Native `*.so` file will be in the lib.unstripped/, and the java `.jar` library will be in the `lib.java/` directory.
+
 The Native `.so` library is un-stripped, you can strip it to *minimize file* size using strip tools for particular CPU type.
 Such tools are located in this following Directory:
 
