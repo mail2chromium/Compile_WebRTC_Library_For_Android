@@ -209,6 +209,10 @@ Here I will explain `Step-8,9`.Some of the developers recommend to look for part
 
 ```
 
+You can see the available latest branches looks like this as follows:
+
+![Latest_Branches](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android/blob/master/Branches.PNG)
+
 
 Now you can checkout to the latest branch which is `branch-heads/m79`, using this command:
 
@@ -263,6 +267,12 @@ Make sure your current working directory is `webrtc_android/src/` of your worksp
     11- tools_webrtc/android/build_aar.py
 
 ```
+
+This process will take some time based on your machine specs and internet speed, so here we go:
+
+![Builded_library](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android/blob/master/Build_Library.PNG)
+
+
 
 Now, if you look in the `webrtc_android/src/` directory, It turns out that you will end up with the compilation and building of `libwebrtc.aar`.
 
@@ -375,12 +385,17 @@ Then you can add repository in the root gradle file followed by adding into your
 
 Some of you guys may try different branch-heads of WebRTC for there development. But I must suggest to use the `origin/master`. Because, it turns out that while using different branch heads, you may end up with multiple issues regarding `BUILD.gn` or inside this class `tools_webrtc/android/build_aar.py`, which may be an unhealthy experience.
 
-Some of the issues are as follows:
+Some kind of the issues are as follows:
 
+##### 1- [Using AAR Build Tools](#using-AAR-Build-Tools)
 
+![Error_of_AAR_Build Tools](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android/blob/master/issue_1.PNG)
 
+##### 2- [Using Manual Compilation](#using-Manual-Compilation)
 
-But if you have properly carried out the above steps, then hopefully, you won't be catch up with issue regarding Compilation and Building libraries. Now, If you have already completed your task to `step-7` with the whatever branch let's say in between (`branch-heads/60`--`branch-heads/m79`), then you can again select the `branch` of `origin/master` instead of any other `branch-heads`. To do that try these following steps:
+![Error_of_Manual_Compilation](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android/blob/master/issue_2.PNG)
+
+And you may end up with same kind of many more issues. But if you have properly carried out the above steps, then hopefully, you won't be catch up with issue regarding Compilation and Building libraries. Now, If you have already completed your task to `step-7` with the whatever branch let's say in between (`branch-heads/60`--`branch-heads/m79`), then you can again select the `branch` of `origin/master` instead of any other `branch-heads`. To do that try these following steps:
 
 Make sure you're in this directory `webrtc_android/src/`:
 
