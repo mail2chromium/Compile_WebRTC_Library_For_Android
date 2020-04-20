@@ -421,7 +421,9 @@ Some kind of the issues are as follows:
 
 ![Error_of_Manual_Compilation](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android/blob/master/issue_2.PNG)
 
-And you may end up with same kind of many more issues. But if you have properly carried out the above steps, then hopefully, you won't be catch up with issue regarding Compilation and Building libraries. Now, If you have already completed your task to `step-7` with the whatever branch let's say in between (`branch-heads/60`--`branch-heads/m79`), then you can again select the `branch` of `origin/master` instead of any other `branch-heads`. To do that try these following steps:
+And you may end up with same kind of many more issues. But if you have properly carried out the above steps, then hopefully, you won't be catch up with issue regarding Compilation and Building libraries. 
+
+Now, If you have already completed your task to `step-7` with the whatever branch let's say in between (`branch-heads/60`--`branch-heads/m79`), then you can again select the `branch` of `origin/master` instead of any other `branch-heads`. To do that try these following steps:
 
 Make sure you're in this directory `webrtc_android/src/`:
 
