@@ -6,7 +6,7 @@
 
 This repository involves a **[Step by Step Guide to Compile and Build WebRTC Library for Android](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android) based on WebRTC Native Stack.** As we all know, Android Programs run into *Dalvik Virtual Machine*. Native Development tool (NDK) allows users to execute some of the program using native code languages such as `C/C++`.
 
-I have made this document pretty straight forward for those who are using WebRTC for the first time or for those who are still struggling to get most out of it. To get more details of WebRTC you have to look 
+I have made this document pretty straight forward for those who are using WebRTC for the first time or for those who are still struggling to get most out of it. To get more details of WebRTC you have to look into this reference:
 
 - [Android_Realtime_Communication_Using_WebRTC](https://github.com/mail2chromium/Android_Realtime_Communication_Using_WebRTC).
 
