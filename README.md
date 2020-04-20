@@ -4,12 +4,32 @@
 **Getting Started**
 ------
 
-This repository involves a **[Step by Step Guide to Compile and Build WebRTC Library for Android based on WebRTC Native Stack]().** As we all know, Android Programs run into Dalvik Virtual Machine. Native Development tool (NDK) allows users to execute some of the program using native code languages such as `C/C++`.
+This repository involves a **[Step by Step Guide to Compile and Build WebRTC Library for Android](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android) based on WebRTC Native Stack.** As we all know, Android Programs run into *Dalvik Virtual Machine*. Native Development tool (NDK) allows users to execute some of the program using native code languages such as `C/C++`.
+
 I have made this document pretty straight forward for those who are using WebRTC for the first time or for those who are still struggling to get most out of it. To get more details of WebRTC you have to look [Android_Realtime_Communication_Using_WebRTC](https://github.com/mail2chromium/Android_Realtime_Communication_Using_WebRTC).
+
 For *AudioProcessing* in Android, I will recommend you to must visit these references:
 
 - [Android-Audio-Processing-Using-WebRTC](https://github.com/mail2chromium/Android-Audio-Processing-Using-WebRTC)
 - [Android-Native-Development-For-WebRTC](https://github.com/mail2chromium/Android-Native-Development-For-WebRTC)
+
+------
+
+# Content of this Document:
+
+- [Prebuilt Libraries](#prebuilt-Libraries)
+
+- [Prerequisite Software](#prerequisite-Software)
+
+- [Major Steps](#major-Steps)
+
+- [Explanation of Steps](#Explanation-of-Steps)
+
+- [Usage of Library](#usage-of-Library)
+
+- [Compilation Issues](#compilation-Issues)
+
+- [Conclusion](#conclusion)
 
 ------
 
@@ -273,7 +293,7 @@ webrtc_android/src/third_party/android_ndk/toolchains/arm-linux-androideabi-4.9/
 --------
 
 
-Usage of Library:
+## Usage of Library:
 
 You can use this (.aar) library into your project using:
 
