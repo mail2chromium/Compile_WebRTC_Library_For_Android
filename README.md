@@ -441,6 +441,7 @@ And hopefully, you will have your issues sorted, because currently, you are chec
 ## Conclusion:
 ------
 
-I have tried to get most out of it. Hopefully, If you will follow these steps properly. Again thanks to WebRTC-Developers for such as huge module for pre-processing as well as post-processing of Real-time Communication.
-If you catchup with any kind of issues, feel free to jump into issues and open that one or you can simply use this discussion portal i.e [Discuss-webrtc](https://groups.google.com/d/forum/discuss-webrtc).
+I have tried to get most out of it. Hopefully, If you will follow these steps properly, you will enjoy the development. Again thanks to WebRTC-Developers for such as huge module for pre-processing as well as post-processing of Real-time Communication.
+
+Now you have WebRTC Native Stack go and do some changes in the native stack and re-build the library, and use it either manually or publish it. If you catchup with any kind of issues, feel free to jump into issues and open that one or you can simply use this discussion portal i.e [Discuss-webrtc](https://groups.google.com/d/forum/discuss-webrtc).
 This group first verify your post, then display it after a short/long interval, so be relaxed. You're issue gonna be solved one day.
