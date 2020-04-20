@@ -24,12 +24,12 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 - [Major Steps](#major-Steps)
 
 - [Explanation of Steps](#Explanation-of-Steps)
- 
- - [Getting the Code](#getting-the-Code)
+  
+  - [Getting the Code](#getting-the-Code)
 
- - [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
+  - [Dependencies and Branch Selection](#dependencies-and-Branch-Selection)
 
- - [Compilation and Building](#compilation-and-Building)
+  - [Compilation and Building](#compilation-and-Building)
 
 - [Usage of Library](#usage-of-Library)
 
