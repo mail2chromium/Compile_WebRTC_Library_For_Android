@@ -49,7 +49,7 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 - [Conclusion](#conclusion)
 
----------
+------
 
 ## Prebuilt Libraries:
 
@@ -63,7 +63,7 @@ On Android Studio 3+ add to your dependencies:
 implementation 'org.webrtc:google-webrtc:1.0.+'
 ```
 
------------
+------
 
 ## Prerequisite Software:
 
@@ -89,7 +89,7 @@ Before to start with WebRTC Native Stack, first install these modules, using the
      - sudo apt-get update
 
 
-----------
+------
 
 ## Major Steps:
 
@@ -134,7 +134,7 @@ I have explained about each step below in this document. To get basic understand
 
 Now, if you look in the `webrtc_android/src/` directory, It turns out that you will end up with the compilation and building of `libwebrtc.aar`.
 
------------------------------------
+------
 
 ## Explanation of Steps:
 
@@ -256,7 +256,7 @@ This will help you to resolve most of [compilation issues](#compilation-Issues).
 
 ```
 
--------------
+------
 
 ### Compilation and Building:
 
@@ -299,7 +299,7 @@ This process will take some time based on your machine specs and internet speed,
 Now, if you look in the `webrtc_android/src/` directory, It turns out that you will end up with the compilation and building of `libwebrtc.aar`.
 
 
---------
+------
 
 ### Using Manual Compilation:
 
@@ -347,7 +347,7 @@ webrtc_android/src/third_party/android_ndk/toolchains/arm-linux-androideabi-4.9/
 
 
 
---------
+------
 
 ## Usage of Library:
 
@@ -403,8 +403,7 @@ You can use maven to add `*.aar` libraries into the existing maven repository us
 Then you can add repository in the root gradle file followed by adding into your app module.
 
 
--------
-
+------
 
 ## Compilation Issues:
 
