@@ -17,7 +17,7 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 ------
 
-# Content of this Document:
+## Content of this Document:
 
 ------
 
@@ -51,7 +51,7 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 ------
 
-## Prebuilt Libraries:
+### Prebuilt Libraries:
 
 ------
 
@@ -65,7 +65,7 @@ implementation 'org.webrtc:google-webrtc:1.0.+'
 
 ------
 
-## Prerequisite Software:
+### Prerequisite Software:
 
 ------
 
@@ -91,7 +91,7 @@ Before to start with WebRTC Native Stack, first install these modules, using the
 
 ------
 
-## Major Steps:
+### Major Steps:
 
 ------
 
@@ -136,7 +136,7 @@ Now, if you look in the `webrtc_android/src/` directory, It turns out that you w
 
 ------
 
-## Explanation of Steps:
+### Explanation of Steps:
 
 ------
 
@@ -349,7 +349,7 @@ webrtc_android/src/third_party/android_ndk/toolchains/arm-linux-androideabi-4.9/
 
 ------
 
-## Usage of Library:
+### Usage of Library:
 
 ------
 
@@ -405,7 +405,7 @@ Then you can add repository in the root gradle file followed by adding into your
 
 ------
 
-## Compilation Issues:
+### Compilation Issues:
 
 ------
 
@@ -438,7 +438,7 @@ And hopefully, you will have your issues sorted, because currently, you are chec
 
 
 ------
-## Conclusion:
+### Conclusion:
 ------
 
 I have tried to get most out of it. Hopefully, If you will follow these steps properly, you will enjoy the development. Again thanks to WebRTC-Developers for such as huge module for pre-processing as well as post-processing of Real-time Communication.
