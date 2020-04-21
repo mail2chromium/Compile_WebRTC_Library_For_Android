@@ -1,7 +1,9 @@
 # "WebRTC Native Stack is considered as a single chain as close to the Hardware Abstraction Layer (HAL) as possible."
 
+-----
 
 **Getting Started**
+
 ------
 
 This repository involves a **[Step by Step Guide to Compile and Build WebRTC Library for Android](https://github.com/mail2chromium/Compile_WebRTC_Library_For_Android) based on WebRTC Native Stack.** As we all know, Android Programs run into *Dalvik Virtual Machine*. Native Development tool (NDK) allows users to execute some of the program using native code languages such as `C/C++`.
@@ -17,7 +19,7 @@ For *AudioProcessing* in Android, I will recommend you to must visit these refer
 
 ------
 
-## Content of this Document:
+### Content of this Document:
 
 ------
 
