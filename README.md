@@ -79,17 +79,31 @@ So, I will must suggest to use any of *Linux-Environment* etc (`Ubuntu`) for And
 - RAM `4-8GB` (Enough)
 - Internet With Good `MBs`
 
-Now open your terminal.
+Currently, The only supported distros are:
+
+ 	Ubuntu 14.04 LTS (trusty with EoL April 2022)
+ 	Ubuntu 16.04 LTS (xenial with EoL April 2024)
+ 	Ubuntu 18.04 LTS (bionic with EoL April 2028)
+ 	Ubuntu 19.04 (disco)
+ 	Ubuntu 19.10 (eoan)
+ 	Debian 8 (jessie) or later
+
+If you go for latest Linux Environment available i.e. (`Ubuntu 20.01`) , It might not install most of the dependencies to build the library.
 
 ##### Strictly Recommended: Don't Open Multiple Terminal Tabs/Windows to install any of dependencies related to WebRTC Pre-requisites, Do Every of Your Task Related to WebRTC in One and Only One Terminal's Tab/Window.
 
-Before to start with WebRTC Native Stack, first install these modules, using the following Commands:
+Before to start with WebRTC Native Stack, open your terminal, first install these modules, using the following Commands:
 
      - sudo add-apt-repository ppa:openjdk-r/ppa
      - sudo apt-get install openjdk-8-jdk
      - sudo apt-get install pkg-config
      - sudo apt-get update
 
+Most of the developers prefer, Inline commands as follows:
+
+```
+  sudo add-apt-repository ppa:openjdk-r/ppa && sudo apt-get install openjdk-8-jdk && sudo apt-get install pkg-config && sudo apt-get update
+```
 
 ------
 
@@ -133,6 +147,8 @@ I have explained about each step below in this document. To get basic understand
     11- tools_webrtc/android/build_aar.py
 
 ```
+
+If you perform all of the above steps in an RDP (Remote Desktop Protocol) of AWS with `30-50` CPU Cores and with the speed of internet around `4-5 GBPs`, then all of the above process might take around `5-6 minutes`. Hurry!!!
 
 Now, if you look in the `webrtc_android/src/` directory, It turns out that you will end up with the compilation and building of `libwebrtc.aar`.
 
