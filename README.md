@@ -353,7 +353,7 @@ For compilation you can simply use these following commands for (`out/Debug`, `o
 
 The output of the above process will be in the `out/Debug` or `out/Release`. Manually compilation of the source code is quite difficult and challenging. As with, manual compilation you also need to package all these libraries into `.aar` manually which is more time consuming.
 
-The Native `*.so` file will be in the lib.unstripped/, and the java `.jar` library will be in the `lib.java/` directory.
+The Native `*.so` file will be in the `lib.unstripped/`, and the java `.jar` library will be in the `lib.java/` directory.
 
 The Native `.so` library is un-stripped, you can strip it to *minimize file* size using strip tools for particular CPU type.
 Such tools are located in this following Directory:
